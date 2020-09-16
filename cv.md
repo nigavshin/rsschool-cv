@@ -62,7 +62,7 @@ My main knowledge is HTML and CSS. At the moment, I have a basic command of Java
 ```javascript
 const reverseString = (str) => {
   let result = "";
-  for (let i = 0; i < str.length; i += 1) {
+  for (let i = 0; i < str.length; i++) {
     result = `${str[i]}${result}`;
   }
   return result;
